@@ -15,15 +15,17 @@
   <header>
 
     <nav>
-      <h1>LK Hair Creations</h1>
+      <a href="#home" class="logo">LK Hair Creations</a>
       <ul>
         <a href="#" class="item"><li>Home</li></a>
         <a href="#" class="item"><li>Services</li></a>
         <a href="#" class="item"><li>Gallery</li></a>
         <a href="#" class="item"><li>Contact us</li></a>
-        <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        <%= button_to "BOOK APPOINTMENT", "#", class: "apptbtn" %>
       </ul>
-      <%= button_to "BOOK APPOINTMENT", "#", class: "apptbtn" %>
+      <a href="javascript:void(0);" class="burger" onclick="toggleNav()">
+        <i class="fa fa-bars"></i>
+      </a>
     </nav>
   
   </header>
