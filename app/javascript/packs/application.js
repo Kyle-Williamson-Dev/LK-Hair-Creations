@@ -8,9 +8,13 @@ import Turbolinks from "turbolinks"
 import * as ActiveStorage from "@rails/activestorage"
 import "channels"
 
-require("packs/custom")
-
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
+// const toggleButton = document.getElementsByClassName('toggle')[0]
+// const navLinks = document.getElementsByClassName('navlinks')[0]
+
+// toggleButton.addEventListener('click', () => {
+//   navLinks.classList.toggle('active')
+// })

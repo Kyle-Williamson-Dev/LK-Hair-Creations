@@ -14,19 +14,23 @@
 
   <header>
 
-    <nav>
+    <div class="topnav">
       <a href="#home" class="logo">LK Hair Creations</a>
-      <ul>
-        <a href="#" class="item"><li>Home</li></a>
-        <a href="#" class="item"><li>Services</li></a>
-        <a href="#" class="item"><li>Gallery</li></a>
-        <a href="#" class="item"><li>Contact us</li></a>
-        <%= button_to "BOOK APPOINTMENT", "#", class: "apptbtn" %>
-      </ul>
-      <a href="javascript:void(0);" class="burger" onclick="toggleNav()">
-        <i class="fa fa-bars"></i>
+      <a href="#" class="toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
       </a>
-    </nav>
+      <div class="navlinks">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#Gallery">Gallery</a></li>
+          <li><a href="#Contact us">Contact us</a></li>
+          <li><a href="#Book">Book Appointment</a></li>
+        </ul>
+      </div>
+    </div>
   
   </header>
 
