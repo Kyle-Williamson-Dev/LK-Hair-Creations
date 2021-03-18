@@ -12,9 +12,12 @@ Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
 
-// const toggleButton = document.getElementsByClassName('toggle')[0]
-// const navLinks = document.getElementsByClassName('navlinks')[0]
 
-// toggleButton.addEventListener('click', () => {
-//   navLinks.classList.toggle('active')
-// })
+document.addEventListener("DOMContentLoaded", function () {
+  const toggleButton = document.getElementsByClassName('toggle')[0]
+  const navLinks = document.getElementsByClassName('navlinks')[0]
+
+  toggleButton.addEventListener('click', () => {
+    navLinks.classList.toggle('active')
+  })
+});
