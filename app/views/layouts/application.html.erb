@@ -8,6 +8,8 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/33272842b8.js" crossorigin="anonymous"></script>
+
   </head>
 
   <body>
@@ -16,11 +18,7 @@
 
     <div class="topnav">
       <a href="#home" class="logo">LK Hair Creations</a>
-      <a href="#" class="toggle" id="toggle">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
+      <div class="nav-btn"><i class="fas fa-bars"></i></div>
       <div class="navlinks">
         <ul class="myLinks" id="myLinks">
           <li><a href="#Home">Home</a></li>
@@ -29,6 +27,7 @@
           <li><a href="#Contact us">Contact us</a></li>
           <li><a href="#Book">Book Appointment</a></li>
         </ul>
+        <div class="nav-btn"><i class="fas fa-bars"></i></div>
       </div>
     </div>
   
