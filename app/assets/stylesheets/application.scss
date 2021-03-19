@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 nav {
@@ -15,11 +16,12 @@ nav {
 
 nav a.logo {
   color: white;
-  font-size: 35px;
+  font-size: 30px;
   line-height: 80px;
-  padding: 0 100px;
+  padding: 0 80px;
   font-weight: 300;
   text-decoration: none;
+  font-family: "Dancing Script";
 }
 nav ul {
   float: right;
@@ -40,8 +42,21 @@ nav ul li a {
 }
 
 a:hover {
-  background: #ab85cc;
-  transition: .2s;
+  background: #a269d3;
+  transition: 0.2s;
+}
+
+a.logo:hover {
+  background: none;
+}
+
+a.booking {
+  background-color: #9f6dcc;
+  transition: background-color 0.2s;
+}
+
+a.booking:hover {
+  background-color: #9e59da;
 }
 
 .checkbtn {
@@ -51,6 +66,7 @@ a:hover {
   line-height: 80px;
   margin-right: 40px;
   cursor: pointer;
+  transition: all 0.5s ease-in-out;
   display: none;
 }
 
@@ -58,18 +74,8 @@ a:hover {
   display: none;
 }
 
-@media (max-width: 952px) {
-  nav a.logo {
-    font-size: 30px;
-    padding-left: 50px;
-  }
-  nav ul li a {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 858px) {
-  .checkbtn{
+@media (max-width: 1173px) {
+  .checkbtn {
     display: block;
   }
 
@@ -77,11 +83,11 @@ a:hover {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #ab85cc;
+    background: #b69acf;
     top: 80px;
     left: -100%;
     text-align: center;
-    transition: all .5s;
+    transition: all 0.2s;
   }
 
   nav ul li {
@@ -91,16 +97,19 @@ a:hover {
   }
 
   nav ul li a {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   a:hover {
-    background: none;
-    color: #b69acf;
+    background: #b69acf;
+  }
+
+  a.booking {
+    background-color: #9f6dcc;
+    transition: background-color 0.2s;
   }
 
   #check:checked ~ ul {
     left: 0;
   }
 }
-
