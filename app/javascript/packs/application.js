@@ -11,10 +11,3 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
-
-
-$(document).ready(function(){
-  $("#toggle").click(function(){
-      $("#myLinks").toggle();
-  });
-});

@@ -7,185 +7,100 @@
   font-family: 'Montserrat', sans-serif;
 }
 
-
-.topnav {
-  display: flex;
-  padding: 0;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ab85cc;
-  height: 55px;
-}
-
-.topnav a.logo {
-  font-size: 1.5em;
-  padding: 15px;
-  text-decoration: none;
-  color: #fff;
-  font-weight: 300;
-}
-
-.navlinks ul {
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-.navlinks li {
-  list-style: none;
-  background-color: #ab85cc;
-  transition: background-color 0.2s;
-}
-
-.navlinks li:hover {
-  background-color: #844cb9;
-}
-
-.navlinks li a {
-  text-decoration: none;
-  color: #fff;
-  padding: 1em;
-  display: block;
-}
-
-.toggle {
-  position: absolute;
-  top: 1.1em;
-  right: 1.1em;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 20px;
-}
-
-.toggle .bar {
-  height: 3px;
+nav {
+  background: #b69acf;
+  height: 80px;
   width: 100%;
-  background-color: #fff;
-  border-radius: 10px;
 }
 
-@media only screen and (max-width: 813px) {
+nav a.logo {
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: 300;
+  text-decoration: none;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
 
-  // Nav //
+a:hover {
+  background: #ab85cc;
+  transition: .2s;
+}
 
-  .toggle {
-    display: flex;
-    padding: 0;
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 952px) {
+  nav a.logo {
+    font-size: 30px;
+    padding-left: 50px;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn{
+    display: block;
   }
 
-  .navlinks {
-    display: none;
+  ul {
+    position: fixed;
     width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-
-  .topnav {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .topnav a {
-    padding: 0;
-  }
-
-  .navlinks ul {
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .navlinks li {
+    height: 100vh;
+    background: #ab85cc;
+    top: 80px;
+    left: -100%;
     text-align: center;
+    transition: all .5s;
   }
 
-  .navlinks li a {
-    padding: .5em 1em;
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
   }
 
-  .navlinks.active {
-    display: flex;
+  nav ul li a {
+    font-size: 20px;
   }
 
-  // Homepage Sections //
+  a:hover {
+    background: none;
+    color: #b69acf;
+  }
 
+  #check:checked ~ ul {
+    left: 0;
+  }
 }
 
-
-// .topnav a.logo {
-//   font-size: 1.5em;
-//   font-weight: 300;
-// }
-
-// a {
-//   color: #fff;
-//   text-decoration: none;
-// }
-
-// .item {
-//   padding: 10px;
-// }
-
-
-// // Mobile //
-
-// @media only screen and (max-width: 600px) {
-//   .topnav {
-//     display: flex;
-//     flex-wrap: wrap;
-//     justify-content: space-between;
-//     height: 80px;
-//     align-items: center;
-//   }
-
-//   .topnav a {
-//     color: #fff;
-//     padding: 14px 16px;
-//     display: block;
-//     padding: 15px 5px;
-//     text-decoration: none;
-//   }
-
-//   .topnav a.icon {
-//     background: #8f61b9;
-//     display: block;
-//     position: absolute;
-//     right: 0;
-//     top: 0;
-//   }
-
-//   .apptbtn {
-//     display: none;
-//   }
-// }
-
-
-// // Tablet //
-
-
-// // Desktop //
-
-// @media only screen and (min-width: 768px) {
-//   .topnav {
-//     background: #ab85cc;
-//     color: #fff;
-//     padding: 0 15px; 
-//     overflow: hidden;
-//     position: relative;
-//   }
-
-//   .apptbtn {
-//     background-color: #8f61b9;
-//     color: #fff;
-//     padding: 10px;
-//     border: none;
-//     border-radius: 60;
-//     transition: background-color 0.2s;
-//   }
-  
-//   .apptbtn:hover {
-//     background-color: #844cb9;
-//   }
-
-// }
