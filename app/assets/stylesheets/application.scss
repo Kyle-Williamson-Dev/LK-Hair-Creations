@@ -27,6 +27,7 @@ nav a.logo {
 nav ul {
   float: right;
   margin-right: 20px;
+  z-index: 2000;
 }
 nav ul li {
   display: inline-block;
@@ -109,11 +110,11 @@ a.booking:hover {
   }
 
   a:hover {
-    background: #b69acf;
+    color: #b69acf;
   }
 
   a.booking {
-    background-color: #b69acf;
+    color: #b69acf;
     transition: background-color 0.2s;
   }
 
