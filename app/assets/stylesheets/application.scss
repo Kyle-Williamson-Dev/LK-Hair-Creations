@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 
 * {
-  -webkit-tap-highlight-color: #000;
+  -webkit-tap-highlight-color: rgb(0, 0, 0);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,13 +10,13 @@
 }
 
 nav {
-  background: #c9c9c9;
+  background: #f1c3ab;
   height: 80px;
   width: 100%;
 }
 
 nav a.logo {
-  color: #222;
+  color: #000;
   font-size: 40px;
   line-height: 85px;
   padding: 0 40px 0 18px;
@@ -35,7 +35,7 @@ nav ul li {
   margin: 0 5px;
 }
 nav ul li a {
-  color: #222;
+  color: #000;
   font-size: 17px;
   padding: 7px 13px;
   border-radius: 3px;
@@ -44,21 +44,22 @@ nav ul li a {
 }
 
 a:hover {
-  color: #c28ff0;
+  color: #000;
+  background-color: #F6D1BE;
   transition: 0.2s;
 }
 
 a.logo:hover {
   background: none;
+  border: none;
 }
 
 a.booking {
-  color: #c78afc;
+  color: #000;
   transition: background-color 0.2s;
 }
 
 a.booking:hover {
-  background-color: #c28ff0;
   color: #fff;
 }
 
@@ -92,7 +93,7 @@ a.booking:hover {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #c9c9c9;
+    background: #F6D1BE;
     top: 80px;
     left: -100%;
     text-align: center;
@@ -110,11 +111,11 @@ a.booking:hover {
   }
 
   a:hover {
-    color: #b69acf;
+    color: #fff;
   }
 
   a.booking {
-    color: #b69acf;
+    color: #000;
     transition: background-color 0.2s;
   }
 
