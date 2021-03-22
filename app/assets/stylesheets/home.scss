@@ -4,6 +4,8 @@
   margin: 0;
 }
 
+// Hero Section //
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("hero2.jpg");
@@ -27,15 +29,63 @@
 
 .hero-text h1 {
   font-weight: 100;
-  font-size: 4em;
+  font-size: 4.5em;
 }
 
+// About Section //
+
 .about {
+  display: flex;
   margin: 0;
-  background-color: #c0c0c0;
+  background-color: #f6d1be;
   height: 50vh;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
+
+.about-txt {
+  margin: 0;
+  padding: 0 100px;
+}
+
+.about-txt h1 {
+  font-weight: 300;
+  font-size: 3em;
+}
+
+.about-txt p {
+  font-size: 25px;
+  font-weight: 200;
+}
+
+.about-txt h2 {
+  font-weight: 300;
+}
+
+hr {
+  display: block;
+  background-color: #000;
+  width: 20%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid black;
+}
+
+.contact-info {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.contact-info a {
+  color: #000;
+  padding: 0 15px;
+}
+
+// Mobile Styling //
 
 @media (max-width: 600px) {
   nav a.logo {
@@ -48,5 +98,9 @@
 
   .hero-text {
     color: #f3dbcf;
+  }
+
+  .contact-info ul a {
+    color: #000;
   }
 }
