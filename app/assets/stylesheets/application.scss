@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&display=swap");
 
 * {
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,7 +11,7 @@
 }
 
 nav {
-  background: #f1c3ab;
+  background: #f6d1be;
   height: 80px;
   width: 100%;
 }
@@ -22,7 +23,7 @@ nav a.logo {
   padding: 0 40px 0 18px;
   font-weight: 300;
   text-decoration: none;
-  font-family: "Sacramento", cursive;
+  font-family: "Allura", cursive;
 }
 nav ul {
   float: right;
@@ -45,7 +46,7 @@ nav ul li a {
 
 a:hover {
   color: #000;
-  background-color: #F6D1BE;
+  background-color: #f6d1be;
   transition: 0.2s;
 }
 
@@ -93,7 +94,7 @@ a.booking:hover {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #F6D1BE;
+    background: #f3dbcf;
     top: 80px;
     left: -100%;
     text-align: center;
@@ -125,12 +126,6 @@ a.booking:hover {
 }
 
 // Small Mobile screens
-
-@media (max-width: 400px) {
-  nav a.logo {
-    font-size: 25px;
-  }
-}
 
 @media (max-width: 318px) {
   nav a.logo {

@@ -5,7 +5,8 @@
 }
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("hero2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("hero2.jpg");
   height: 80vh;
   width: 100%;
   background-position: center;
@@ -25,7 +26,7 @@
 }
 
 .hero-text h1 {
-  font-weight: 300;
+  font-weight: 100;
   font-size: 4em;
 }
 
@@ -36,3 +37,16 @@
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  nav a.logo {
+    font-size: 25px;
+  }
+
+  .hero-image {
+    background: #000;
+  }
+
+  .hero-text {
+    color: #f3dbcf;
+  }
+}
