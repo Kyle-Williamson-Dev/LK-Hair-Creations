@@ -35,10 +35,12 @@
 // About Section //
 
 .about {
-  display: flex;
   margin: 0;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   background-color: #f6d1be;
-  height: 50vh;
+  height: 100%;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -46,7 +48,7 @@
 
 .about-txt {
   margin: 0;
-  padding: 0 100px;
+  padding: 0 30px;
 }
 
 .about-txt h1 {
@@ -74,15 +76,11 @@ hr {
   border-top: 1px solid black;
 }
 
-.contact-info {
-  display: flex;
-  list-style: none;
-  justify-content: center;
-}
+// Contact Section //
 
-.contact-info a {
-  color: #000;
-  padding: 0 15px;
+.contact {
+  background-color: #fff;
+  height: 40vh;
 }
 
 // Mobile Styling //
@@ -94,10 +92,17 @@ hr {
 
   .hero-image {
     background: #000;
+    margin: 0;
+    height: 50vh;
   }
 
   .hero-text {
     color: #f3dbcf;
+  }
+
+  .about-txt p {
+    font-size: 20px;
+    font-weight: 300;
   }
 
   .contact-info ul a {
