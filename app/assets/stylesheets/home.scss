@@ -7,7 +7,8 @@
 // Hero Section //
 
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(/assets/hero2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/assets/hero2.jpg);
   height: 80vh;
   width: 100%;
   background-position: center;
@@ -80,7 +81,7 @@ hr {
 .contact {
   margin: 0;
   padding: 80px;
-  height: 80vh;
+  height: 70vh;
   background-color: #222;
   color: #f3dbcf;
   text-align: center;
@@ -94,8 +95,10 @@ hr {
 
 .contact h2 {
   padding: 10px 0;
+  font-weight: 200;
+  text-align: center;
 }
-  
+
 .contact-icon {
   color: #f3dbcf;
   font-size: 40px;
@@ -121,6 +124,7 @@ hr {
 
 .bookbtn {
   padding: 10px 35px;
+  margin: 20px 0;
   background-color: #222;
   color: #f3dbcf;
   border: 1px solid #f3dbcf;
@@ -131,7 +135,6 @@ hr {
   color: #000;
   border: 1px solid #222;
 }
-
 
 // Mobile Styling //
 
@@ -173,7 +176,7 @@ hr {
     display: block;
     color: #f3dbcf;
   }
-  
+
   .contact h1 {
     margin-bottom: 20px;
   }
