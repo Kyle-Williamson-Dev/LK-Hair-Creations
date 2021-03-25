@@ -32,6 +32,22 @@
   font-size: 4.5em;
 }
 
+.herobookbtn {
+  padding: 20px 35px;
+  margin-top: 50px;
+  background-color: #f3dbcf;
+  color: #222;
+  transition: color 0.2s;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.herobookbtn:hover {
+  background-color: #f6d1be;
+  color: #000;
+}
+
 // About Section //
 
 .about {
@@ -80,8 +96,8 @@ hr {
 
 .contact {
   margin: 0;
-  padding: 80px;
-  height: 70vh;
+  padding: 80px 20px;
+  height: 65vh;
   background-color: #222;
   color: #f3dbcf;
   text-align: center;
@@ -107,7 +123,7 @@ hr {
 .contact .social-links li {
   margin: 0;
   display: inline-block;
-  padding-top: 30px;
+  padding-top: 20px;
   list-style: none;
 }
 
@@ -117,23 +133,33 @@ hr {
   transition: 0.2s;
 }
 
+.ig-link {
+  padding-right: 30px;
+}
+
 .ig-link:hover {
   background-color: #222;
-  color: #f3dbcf;
+  color: #f6d1be;
 }
 
-.bookbtn {
+.facebook-link:hover {
+  background-color: #222;
+  color: #f6d1be;
+}
+
+.contactbook {
   padding: 10px 35px;
   margin: 20px 0;
-  background-color: #222;
-  color: #f3dbcf;
-  border: 1px solid #f3dbcf;
+  background-color: #f3dbcf;
+  color: #222;
+  transition: color 0.2s;
+  border: none;
+  border-radius: 15px;
 }
 
-.bookbtn:hover {
-  background-color: #f3dbcf;
+.contactbook:hover {
+  background-color: #f6d1be;
   color: #000;
-  border: 1px solid #222;
 }
 
 // Mobile Styling //
@@ -166,22 +192,15 @@ hr {
 
   .contact {
     margin: 0;
-    padding: 80px;
+    padding: 40px 20px;
     color: #f3dbcf;
     background-color: #222;
     text-align: center;
   }
 
-  .contact-icon {
-    display: block;
+  .contact ul li a {
     color: #f3dbcf;
-  }
-
-  .contact h1 {
-    margin-bottom: 20px;
-  }
-
-  .contact ul a {
-    color: #f3dbcf;
+    font-size: 40px;
+    transition: 0.2s;
   }
 }

@@ -1,0 +1,17 @@
+Front end:
+  ☐ Change contact section for desktop view so that there's two boxes next to eachother with information in the mile of the container.
+  ☐ Add simple footer that stays at the bottom (not sticking on scroll) for whole site. 
+    Footer:
+      ☐ Simply put copyright with my name and link to my portfolio if that's okay with Linda.
+  ☐ Begin styling Services page.
+    Services page:
+      ☐ Create animated cards for each service that shows a picture and price. Think about this info's design.
+      ☐ Create links on each card to book an appointment for that type of service. Whether it can auto populate to which service to pay for in Square is TBD.
+      ☐ Ask for detailed descriptions of each service. Maybe this info ddrops down when the card is hovered over. Price wouldd stay on the card whether hovered or not.
+
+  Backend:
+    ☐ Create controller for Gallery page.
+    ☐ Connect routes for each controller and view. Migrate database.
+    ☐ Look into carrierwave again for adding photos. Or another gem if there is one. 
+    ☐ Create admin functionality for Linda to add pictures to the site. 
+    
