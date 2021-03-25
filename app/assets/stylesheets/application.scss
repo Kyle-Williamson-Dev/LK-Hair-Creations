@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 a:hover {
-  color: #000;
+  color: #fff;
   background-color: #f6d1be;
   transition: 0.2s;
 }
@@ -56,9 +56,10 @@ a.logo:hover {
 }
 
 a.booking {
+  background-color: #eba989;
   color: #000;
   margin-left: 40px;
-  transition: background-color 0.2s;
+  transition: color 0.2s;
 }
 
 a.booking:hover {
@@ -117,6 +118,7 @@ a.booking:hover {
   }
 
   a.booking {
+    margin: 0;
     color: #000;
     transition: background-color 0.2s;
   }
