@@ -13,7 +13,7 @@
   height: 100%;
   margin: 0;
   padding: 50px 200px;
-  background-color: #f1dacd;
+  background-color: #ffdcc8;
   justify-content: center;
 }
 
@@ -26,11 +26,13 @@
 .services h3 {
   font-weight: 300;
   font-size: 2.75em;
+  font-family: "Alex Brush", cursive;
+  text-align: center;
 }
 
 .services p {
-  font-weight: 300;
-  font-size: 1.6em;
+  font-weight: 400;
+  font-size: 1.2em;
   padding: 0;
   margin: 40px 0;
   text-align: center;
@@ -38,9 +40,9 @@
 
 .services ul {
   font-weight: 300;
-  font-size: 1.6em;
+  font-size: 1.2em;
   list-style: none;
-  padding: 20px 20px;
+  padding: 20px 10px;
 }
 
 .services ul li {
@@ -49,9 +51,23 @@
 
 .card {
   border: 1px solid #000;
+  margin: 20px 0;
   padding: 20px 20px;
   height: auto;
   width: 100%;
+  text-align: center;
+}
+
+.svcbook-btn {
+  margin: 0;
+  padding: 20px 15px;
+  background-color: #ffccaf;
+  border: none;
+  font-size: 1.25em;
+}
+
+.svcbook-btn:hover {
+  color: #fff;
 }
 
 @media (max-width: 600px) {
