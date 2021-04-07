@@ -59,18 +59,14 @@
   text-align: center;
 }
 
-.svcbook-btn {
+#svc-booking {
   margin: 0;
   padding: 20px 40px;
   background-color: #ffdcc8;
-  width: auto;
   border: none;
   font-size: 1.25em;
-  border-radius: 15px;
-}
-
-.svcbook-btn:hover {
-  color: #fff;
+  border-radius: 100px;
+  list-style: none;
 }
 
 @media (max-width: 1000px) {

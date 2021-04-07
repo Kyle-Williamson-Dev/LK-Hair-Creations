@@ -11,7 +11,7 @@
 }
 
 nav {
-  background: #f7cbb5;
+  background: #fcbfa1;
   height: 80px;
   width: 100%;
 }
@@ -37,8 +37,8 @@ nav ul li {
 }
 nav ul li a {
   color: #000;
-  font-size: 17px;
-  padding: 7px 13px;
+  font-size: 22px;
+  padding: 7px 20px;
   border-radius: 3px;
   text-transform: uppercase;
   text-decoration: none;
@@ -55,15 +55,8 @@ a.logo:hover {
   border: none;
 }
 
-a.booking {
-  background-color: #eba989;
-  color: #000;
-  margin-left: 40px;
-  transition: color 0.2s;
-}
-
-a.booking:hover {
-  color: #fff;
+#booking {
+  display: none;
 }
 
 .aboutptags ul a {
@@ -104,7 +97,7 @@ a.booking:hover {
   }
 
   nav a.logo {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   nav ul {
@@ -132,10 +125,10 @@ a.booking:hover {
     color: #fff;
   }
 
-  a.booking {
+  #booking {
+    display: block;
     margin: 0;
     color: #000;
-    transition: background-color 0.2s;
   }
 
   #check:checked ~ ul {
