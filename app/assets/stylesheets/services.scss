@@ -50,23 +50,15 @@
 }
 
 .card {
-  border: 1px dashed #000;
   background-color: #f7cbb5;
   margin: 50px 0;
   padding: 20px 20px;
   height: auto;
   width: 100%;
   text-align: center;
-}
-
-#svc-booking {
-  margin: 0;
-  padding: 20px 40px;
-  background-color: #ffdcc8;
-  border: none;
-  font-size: 1.25em;
-  border-radius: 100px;
-  list-style: none;
+  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
 }
 
 @media (max-width: 1000px) {
