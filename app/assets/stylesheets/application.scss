@@ -10,6 +10,16 @@
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 nav {
   background: #fcbfa1;
   height: 80px;
@@ -89,6 +99,17 @@ a.logo:hover {
 
 #check {
   display: none;
+}
+
+footer {
+  padding: 27px;
+  height: 75px;
+  margin-top: auto;
+}
+
+.mywebsite {
+  text-decoration: none;
+  color: #000;
 }
 
 // Tablet/Mobile for now //
