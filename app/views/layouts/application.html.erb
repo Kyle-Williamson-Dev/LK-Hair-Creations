@@ -26,7 +26,7 @@
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <a href="#home" class="logo">LK Hair Creations</a>
+      <%= link_to 'LK Hair Creations', home_index_path, class: "logo" %>
       <ul>
         <li><%= link_to 'Home', home_index_path %></li>
         <li><%= link_to 'Services', services_index_path %></li>
@@ -36,6 +36,14 @@
     </nav>
   
   </header>
+
+  <footer>
+    
+    <div class="footer-content">
+    
+    </div>
+
+  </footer>
 
     <%= yield %>
   </body>
