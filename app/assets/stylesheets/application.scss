@@ -22,9 +22,13 @@ body {
 
 nav {
   background: #fcbfa1;
-  height: 80px;
+  margin: 0;
+  height: 82px;
   width: 100%;
   z-index: 1001;
+  -webkit-box-shadow: 0 15px 20px -6px #000;
+  -moz-box-shadow: 0 15px 20px -6px #000;
+  box-shadow: 0 15px 20px -6px #000;
 }
 
 nav a.logo {
@@ -102,9 +106,10 @@ a.logo:hover {
 }
 
 footer {
-  padding: 27px;
+  padding: 30px 30px;
   height: 75px;
   margin-top: auto;
+  background-color: #fcbfa1;
 }
 
 .mywebsite {
