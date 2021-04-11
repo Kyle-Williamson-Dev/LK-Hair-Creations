@@ -16,9 +16,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
-  -moz-box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 0 15px 20px -6px #000;
+  -moz-box-shadow: 0 15px 20px -6px #000;
+  box-shadow: 0 15px 20px -6px #000;
 }
 
 .hero-text {
@@ -118,6 +118,9 @@ hr {
   background-color: #222;
   color: #f3dbcf;
   text-align: center;
+  -webkit-box-shadow: 15px 0px 30px #000;
+  -moz-box-shadow: 15px 0px 30px #000;
+  box-shadow: 15px 0px 30px #000;
 }
 
 .contact ul {
