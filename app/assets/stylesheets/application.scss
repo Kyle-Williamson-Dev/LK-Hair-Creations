@@ -10,10 +10,22 @@
   font-family: "Montserrat", sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 nav {
   background: #fcbfa1;
-  height: 80px;
+  margin: 0;
+  height: 82px;
   width: 100%;
+  z-index: 1001;
 }
 
 nav a.logo {
@@ -88,6 +100,18 @@ a.logo:hover {
 
 #check {
   display: none;
+}
+
+footer {
+  padding: 30px 30px;
+  height: 75px;
+  margin-top: auto;
+  background-color: #fcbfa1;
+}
+
+.mywebsite {
+  text-decoration: none;
+  color: #000;
 }
 
 // Tablet/Mobile for now //

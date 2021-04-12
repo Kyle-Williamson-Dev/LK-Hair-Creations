@@ -1,3 +1,57 @@
-// Place all the styles related to the gallery controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: https://sass-lang.com/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #f7cbb5;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -75px;
+  background-color: #f6d1be;
+  height: auto;
+  flex-grow: 1;
+}
+
+.gallery-box {
+  padding: 200px;
+  text-align: center;
+  width: 100%;
+}
+
+.gallery ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.gallery ul li {
+  display: inline-block;
+}
+
+.gallery ul li a {
+  color: #000;
+  font-size: 50px;
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.gallery h1 {
+  font-weight: 300;
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+.gallery h2 {
+  font-weight: 300;
+  margin: 20px 0;
+}

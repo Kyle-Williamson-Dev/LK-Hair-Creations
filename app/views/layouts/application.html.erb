@@ -19,24 +19,35 @@
 
   <body>
 
-  <header>
+    <header>
 
-    <nav>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <a href="#home" class="logo">LK Hair Creations</a>
-      <ul>
-        <li><%= link_to 'Home', home_index_path %></li>
-        <li><%= link_to 'Services', services_index_path %></li>
-        <li><a href="#">Gallery</a></li>
-        <li id="booking"><a target="_top" style=" background-color: #f6d1be; color: #222; height: auto; text-transform: uppercase; text-decoration: none; text-align: center; font-family: 'Montserrat', 'Montserrat neue', Montserrat, arial, sans-serif; margin: 0 30px; border-radius: 100px; font-weight: 400; font-size: 25px;" href="https://squareup.com/appointments/book/fanfu0tqfnkcov/CRDJFVEYFV1TY/start">Book Appointment</a></li>
-      </ul>
-    </nav>
-  
-  </header>
+      <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <%= link_to 'LK Hair Creations', home_index_path, class: "logo" %>
+        <ul>
+          <li><%= link_to 'Home', home_index_path %></li>
+          <li><%= link_to 'Services', services_index_path %></li>
+          <li><%= link_to 'Gallery', gallery_index_path %></li>
+          <li><%= link_to 'Products', products_index_path %></li>
+          <li><%= link_to 'Policy', policy_index_path %></li>
+          <li id="booking"><a target="_top" style=" background-color: #f6d1be; color: #222; height: auto; text-transform: uppercase; text-decoration: none; text-align: center; font-family: 'Montserrat', 'Montserrat neue', Montserrat, arial, sans-serif; margin: 0 30px; border-radius: 100px; font-weight: 400; font-size: 25px;"href="https://squareup.com/appointments/book/fanfu0tqfnkcov/CRDJFVEYFV1TY/start">Book Appointment</a></li>
+        </ul>
+      </nav>
+    
+    </header>
 
     <%= yield %>
+
+  <footer>
+      
+    <div class="footer-content">
+      <p>&copy; Copyright 2021 - <%= link_to "Kyle Williamson", "http://kylejwilliamson.com/", class: "mywebsite" %></p>
+    </div>
+
+  </footer>
+
   </body>
 </html>

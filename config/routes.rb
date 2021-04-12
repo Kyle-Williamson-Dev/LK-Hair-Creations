@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
-  get 'gallery/index'
-  get 'services/index'
-  get 'home/index'
   root 'home#index'
+  get 'home/index'
+  get 'services/index'
+  get 'gallery/index'
+  get 'products/index'
+  get 'policy/index'
 end
