@@ -13,14 +13,22 @@
   height: 100%;
   margin: 0;
   padding: 50px 200px;
-  background-color: black;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    image-url("Group-Evergreen-304-Innersense-Organic-Beauty.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   justify-content: center;
+  color: #fff;
 }
 
 .products h1 {
   font-family: "Alex Brush", cursive;
   font-weight: 300;
   font-size: 5em;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 10px;
 }
 
 .products p {
