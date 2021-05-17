@@ -14,9 +14,8 @@
   margin: 0;
   padding: 50px 200px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    image-url("Group-Evergreen-304-Innersense-Organic-Beauty.jpg");
+    image-url("pp1.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   justify-content: center;
@@ -31,6 +30,13 @@
   margin-bottom: 10px;
 }
 
+.products h2 {
+  padding: 0 200px;
+  margin-top: 25px;
+  font-size: 30px;
+  font-weight: 300;
+}
+
 .products p {
   font-weight: 400;
   font-size: 1.2em;
@@ -39,8 +45,11 @@
   text-align: center;
 }
 
-@media (max-width: 1000px) {
-  .products {
-    padding: 30px 50px;
-  }
+.product-images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
 }
